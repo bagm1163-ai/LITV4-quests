@@ -1,0 +1,634 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "splendid_slimes"
+	group: "31B2D4582F8C8AC3"
+	icon: {
+		Count: 1
+		id: "splendid_slimes:slime_item"
+		tag: {
+			slime: {
+				id: "splendid_slimes:orby"
+			}
+		}
+	}
+	id: "67A4D2C0446FC2B0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			id: "273986876BE15F01"
+			rewards: [{
+				id: "1D009EC2FADE7100"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43C61C02C6DB972E"
+				item: "splendid_slimes:slime_inspector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D0572C481AD49AF"]
+			description: [
+				"&4슬라임 심장&r은(는) &1슬라임 배양기&r 안에서 천천히 자랄 수 있습니다."
+				""
+				"다 자라면 가장 작은 크기로 장치에서 자동으로 튀어나옵니다. &4슬라임 심장&r은(는) &1배양기&r를 우클릭하거나 호퍼와 같은 자동화 장치를 통해 수동으로 넣을 수 있습니다."
+			]
+			id: "0E5F68E390F714C3"
+			rewards: [
+				{
+					id: "0712C3AF44C80B67"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "48D0969EF04F7F99"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "574E47634E3E2019"
+				item: "splendid_slimes:slime_incubator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			description: [
+				"&4슬라임 심장&r은(는) 플롯에서 &6플롯 압착기&r로 만들거나, 서로 다른 두 아이템을 융합하여 만들 수 있습니다."
+				""
+				"이것은 양조기와 비슷하게 작동하며, 상단 슬롯의 아이템이 하단 슬롯의 아이템에 적용됩니다."
+			]
+			id: "5BF396E1D4970289"
+			rewards: [
+				{
+					id: "7A88C5BD38CEE839"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "69B29BD9080D034A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "256214ED6AE35BF5"
+				item: "splendid_slimes:plort_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			description: [
+				"&5플롯 리핏&r은(는) &3플롯&r을(를) 소비하여 가중치 굴림에 따라 아이템으로 바꿉니다."
+				""
+				"&o예를 들어, 눈물 플롯은 주로 가스트 눈물로 바뀌지만, 울고 있는 흑요석으로 바뀔 확률이 낮습니다. &r"
+				""
+				"&3플롯&r은(는) &5리핏&r을(를) 우클릭하거나 호퍼와 같은 자동화 장치를 통해 수동으로 넣을 수 있습니다."
+			]
+			id: "08414CAF441722AB"
+			rewards: [
+				{
+					id: "6ABFB33251D57670"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27AE965568091AB1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "2138C319F9841204"
+				item: "splendid_slimes:plort_rippit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			description: [
+				"&2슬라임&r은(는) 자신의 식단에 맞는 것이라면 세상에 떨어진 어떤 것이든 먹지만, 먹이를 관리하는 쉬운 방법이 있습니다. 바로 &9슬라임 먹이통&r입니다!"
+				""
+				"이 블록은 &2슬라임&r에게 자동으로 먹이를 주고 까다로움과 같은 식단 특성도 처리해 줍니다."
+			]
+			id: "4AFB25C82D2CF662"
+			rewards: [
+				{
+					id: "1D96EE49998635AD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "23AA6E3962E3EF25"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "79BCF95D30ECE71B"
+				item: "splendid_slimes:slime_feeder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&3플롯&r은(는) 같은 종류의 슬라임이 음식을 먹을 때 생성되는 &2슬라임&r의 "
+				""
+				"&5플롯 리핏&r을(를) 사용하여 자원으로 바꾸거나, &6플롯 압착기&r를 사용하여 더 많은 &2슬라임&r으로 바꿀 수 있습니다."
+			]
+			id: "2EED343F3C0784C1"
+			rewards: [
+				{
+					id: "75E98767E4245D8B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1869ABA2F70AF9AD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "71B85FAC6C2D3169"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:all_seeing"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:blazing"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:bony"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:boomcat"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:ender"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:gold"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:luminous"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:minty"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:webby"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:sweet"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:slimy"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:shulking"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:rotting"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:puddle"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:prisma"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:phantom"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:orby"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:plort"
+								tag: {
+									plort: {
+										id: "splendid_slimes:weeping"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "사용 가능한 플롯"
+				type: "item"
+			}]
+			title: "플롯"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			description: [
+				"슬라임 Vac은(는) &2슬라임&r을(를) 퍼올리거나 쏠 수 있습니다!"
+				""
+				"반대쪽 손에 들고 있는 음식 아이템이나 &2슬라임&r은(는) 세상으로 발사됩니다. 키를 사용하여 아이템, 슬라임 또는 둘 다를 줍도록 Vac 모드를 변경할 수 있습니다."
+			]
+			id: "417FD028FAAED4FD"
+			rewards: [{
+				id: "18DBDCA5A72A5FBF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "281C106E08331DFB"
+				item: "splendid_slimes:slime_vac"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BF396E1D4970289"]
+			description: [
+				"&4슬라임 심장&r은(는) &2슬라임&r의 배아 형태입니다."
+				""
+				"&1슬라임 배양기&r에 넣으면 천천히 자라서 &2슬라임&r이(가) 됩니다!"
+			]
+			id: "4D0572C481AD49AF"
+			rewards: [
+				{
+					id: "0DAF74F3974C7D3A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "50294C3A04E0FAF7"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "6DBAD4A90C28A795"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:all_seeing"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:blazing"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:bony"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:boomcat"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:ender"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:gold"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:luminous"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:minty"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:bitwise"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:webby"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:sweet"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:slimy"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:shulking"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:rotting"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:puddle"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:prisma"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:phantom"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:orby"
+									}
+								}
+							}
+							{
+								Count: 1
+								id: "splendid_slimes:slime_heart"
+								tag: {
+									slime: {
+										id: "splendid_slimes:weeping"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "슬라임 심장"
+				type: "item"
+			}]
+			title: "슬라임 심장"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08414CAF441722AB"]
+			description: ["먹으면 &2슬라임&r의 행복을 크게 향상시키는 간식입니다. 주로 달콤한 &3플롯&r을(를) 찢어서 얻을 수 있습니다."]
+			id: "3293C86F0130660D"
+			rewards: [
+				{
+					id: "3A613A0A071FE7D6"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "53D911D1B4E31766"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "62E10E3309E77F09"
+				item: "splendid_slimes:slime_candy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EED343F3C0784C1"]
+			description: [
+				"&2슬라임&r을(를) 안전하게 보호하려면 우리에 넣어 두는 것이 가장 좋습니다."
+				""
+				"&e울타리 블록 및 울타리 창살&r은(는) &2슬라임&r이(가) 편리하게 건널 수 없지만 플레이어와 몹은 건널 수 있습니다."
+				""
+				"레드스톤 신호로 전원을 공급하면 플레이어 외의 엔티티가 건너는 것을 막을 수 있습니다. &2슬라임&r 먹이가 도망가지 않도록 하는 경우에 유용합니다."
+			]
+			id: "23E41B8A694B912B"
+			rewards: [
+				{
+					id: "4520B06EE91C46CB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "05ABB90D22AAB8CF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "41B8FB0FEF18FEEF"
+				item: "splendid_slimes:corral_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+	]
+	title: "훌륭한 슬라임"
+}

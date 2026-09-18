@@ -1,0 +1,1264 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "useful_gadgets"
+	group: "3E8AF5589C449D02"
+	icon: {
+		Count: 1
+		id: "supplementaries:slingshot"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "148142477D94DBB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["렌치는 이미 월드에 설치된 블록을 회전시키는 데 사용됩니다."]
+			id: "6036606EB66CA53B"
+			rewards: [{
+				id: "49714FCECB268D9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "641EAC16133A68E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["밧줄은 사다리처럼 오를 수 있습니다. supplementaries의 밧줄은 통과할 수도 있습니다."]
+			id: "5E204AB79DAAB52D"
+			rewards: [{
+				id: "42C472C575DABE68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "162C889688440AF9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:ropes"
+					}
+				}
+				title: "모든 #supplementaries:ropes"
+				type: "item"
+			}]
+			title: "밧줄"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			description: ["대나무 스파이크는 몹으로부터 기지를 보호하는 데 유용한 함정입니다. 포션 효과를 줄 수도 있습니다!"]
+			id: "479A6A22470E1185"
+			rewards: [{
+				id: "14F277372E532C77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77144701C6D192D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: ["크랭크는 원하는 정확한 레드스톤 신호를 제공하는 데 사용됩니다."]
+			id: "54C3A17F5B58EE68"
+			rewards: [{
+				id: "33B3871752DF3216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3EF239BD4409DA2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "크랭크 작동기"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["코그 블록은 레드스톤을 수직으로 전송할 수 있습니다!"]
+			id: "40A8093785063118"
+			rewards: [{
+				id: "3A430BC4DDFFD469"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B68159A4AC4BB59"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			title: "수직 레드스톤?!"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: ["액체를 저장하고 작은 몹을 가둡니다."]
+			id: "5170EA14341F98C1"
+			rewards: [{
+				id: "66556F8F7F4B6CD0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C6F71E71474A123"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:jar"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: ["닭과 같은 작은 몹을 가둡니다."]
+			id: "2CD48BCA2366FF8B"
+			rewards: [{
+				id: "4B32183C7CD48C3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51AF7824A0C2BDB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["근처의 애완동물을 당신에게 순간이동시킵니다. 곤란한 상황에서 애완동물을 꺼내는 데 유용합니다."]
+			id: "1749E2039A673EA0"
+			rewards: [{
+				id: "509FE6C98099608F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D77A7053A6FED5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4244985D407F38C3"]
+			description: ["키가 사용되면 레드스톤 신호를 방출합니다. 키 이름을 변경하여 해당 키만 사용할 수 있도록 할 수 있습니다."]
+			id: "402C99F031399422"
+			rewards: [{
+				id: "4FAA12FC40B4C292"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DF3838276376A57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["잠금 블록을 해제하는 데 사용됩니다. 아무 치장 슬롯에 넣을 수 있습니다."]
+			id: "4244985D407F38C3"
+			rewards: [{
+				id: "5273C994CDACA1E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E830991F904949D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["메시지를 말하거나 채팅에 표시하도록 설정할 수 있습니다. 친구 (또는 적!)를 짜증나게 하는 데 완벽합니다!"]
+			id: "1B0B69AA32A15EA3"
+			rewards: [{
+				id: "5C63BED908716F27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40E3DC77624F66F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["멀리서 블록을 배치할 수 있습니다!"]
+			id: "5F6B5626144C464A"
+			rewards: [
+				{
+					id: "74609DB6B63FE48D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "75AFD987BB51EF42"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63EFAC498A4A1CBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["그 위에 서 있는 블록과 몹을 회전시킵니다."]
+			id: "3659FAAB23FD25C3"
+			rewards: [{
+				id: "15BB4EA3ECCB72BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28CD4BBBBC210D26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "입장 바꿔!"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			description: ["전원이 공급되거나 높은 곳에서 착지하면 공중으로 발사합니다."]
+			id: "4DD22C3C44C75AC7"
+			rewards: [{
+				id: "5CFD1317C880D124"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72A51592F81BD3E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:spring_launcher"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4244985D407F38C3"]
+			description: ["이 강력한 문은 키로 잠글 수 있으며 손으로 열 수 있습니다."]
+			id: "4810312CBBD94AD8"
+			rewards: [{
+				id: "3BA7B020E58B021D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2C95D45B255BBC7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "3D25A56B7EE02B4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: ["이 문은 손으로 열 수 있지만 레드스톤 신호로는 열 수 없습니다."]
+			id: "08FFCB01BB6EA9BE"
+			rewards: [{
+				id: "66EC406DC268927F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2CE09CA3E8A7F360"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "06001014804A827F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["레드스톤 신호에 따라 빛을 방출합니다."]
+			id: "0BF29C5A22D6BEFA"
+			rewards: [{
+				id: "143E8E1DACB3909C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5722EB11F53525D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			description: ["막대기 위에 올려 깃대를 만들 수 있습니다. 깃대를 우클릭하여 깃발을 올리고, 웅크린 채로 있으면 깃발을 내립니다."]
+			id: "398136BC6E7CB1BE"
+			rewards: [{
+				id: "372CE5DD6B7F7920"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "527BBF42D0F79D3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "깃발"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			description: ["막대기, 블레이즈 막대, 프리즈마린 막대와 같은 일부 막대 및 책 아이템은 블록으로 월드에 배치할 수 있습니다. JEI에서 \"배치 가능\"을 검색하여 블록으로 배치할 수 있는 아이템을 확인하세요."]
+			id: "0510C8539C2E6BF0"
+			rewards: [{
+				id: "60EC8D83220928B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62611548D36850A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			title: "배치 가능한 아이템"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			description: ["자갈에 괭이를 사용하여 만듭니다."]
+			id: "78CD6FD6A3A4F57F"
+			rewards: [{
+				id: "55F5A596C4EF4053"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3164735E7B90FD70"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:raked_gravel"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["금고는 플레이어가 배치한 사람만 열 수 있는 셜커 상자보다 파괴하기 더 어렵습니다."]
+			id: "3D225814C824232E"
+			rewards: [{
+				id: "442560F716CC0480"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D29E48039FAFF18"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: ["5개의 아이템만 보관할 수 있는 작은 초반 셜커 상자입니다. 인벤토리에 너무 많이 가지고 다니면 속도가 느려집니다."]
+			disable_toast: 1
+			id: "7265824D9907094E"
+			rewards: [{
+				id: "28B44301A475480A"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "1546CF9CC7535B71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: ["잔디, 횃불 및 기타 약한 블록만 파괴하는 던질 수 있는 폭발물입니다. 몹의 발을 겨냥하여 날려 버리세요!"]
+			id: "4DD43F2838F662B1"
+			rewards: [{
+				id: "4F58824193EAB4B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D98F04EFCF45B04"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"전리품과 특별한 상인에게서만 찾을 수 있는 더 희귀한 버전의 폭탄..."
+				"폭탄보다 강력하고 몹에 불을 붙입니다!"
+			]
+			id: "2900E79420F23EC2"
+			rewards: [{
+				id: "020D7B0D493F43F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4ED08346FB5D9F2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb_blue"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: ["이 모드팩의 \"팬\"인 풀무는 전원이 공급되면 몹을 향하고 있는 방향으로 날려 버립니다."]
+			id: "04A8FD392C7A44F0"
+			rewards: [{
+				id: "37BEE23A03674B0F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E842C8AF81732DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bellows"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"비옥한 토양은 강화된 유형의 흙으로, 더 비옥하고 요소에 더 내구성이 있습니다."
+				""
+				"비옥한 토양은 직접 제작할 수 없습니다. 만들려면 유기농 퇴비를 제작하고 월드에 배치하여 시간이 지남에 따라 분해되도록 해야 합니다."
+				""
+				"유기농 퇴비는 햇빛과 근처 물의 습기에서 더 쉽게 분해되지만 농지처럼 실제로 수분을 공급하지는 않습니다. 또한 자체를 중심으로 3x3x3 영역에 활성기를 배치하여 부드럽게 가속화할 수도 있습니다."
+				""
+				"현재 다음 블록은 유기농 퇴비의 활성기 역할을 합니다."
+				"- 갈색 및 빨간색 버섯과 그 구획;"
+				"- 회백토 및 균사체;"
+				"- 기타 유기농 퇴비 블록;"
+				"- 비옥한 토양, 일반 또는 경작."
+			]
+			id: "28EA6E8682DF55FF"
+			rewards: [{
+				id: "67C73D9923F25E36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "417B8D0CC9931310"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"재배 가능한 식물을 비옥한 토양에 놓으면 골분을 사용하는 것과 유사하게 성장이 무작위로 촉진됩니다."
+				"비옥한 토양은 괭이를 사용하여 비옥한 농지로 경작할 수 있습니다. 비옥한 농지는 몹 짓밟기에 면역되며 멜론이나 호박으로 풀리지 않지만 작물을 촉진하려면 수분이 필요합니다."
+				""
+				"충분한 어둠 속에서 비옥한 토양에 심은 버섯은 결국 버섯 구획을 형성합니다. 이러한 구획은 시간이 지남에 따라 2~5개의 버섯 갓으로 자라며 수확할 때 떨어뜨립니다."
+			]
+			id: "0E2E46B061676531"
+			rewards: [{
+				id: "10C4FDAB183CAF6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14A9CEEA75C92DE1"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"플레이어의 인벤토리에 있는 동안 천천히 시간이 축적됩니다."
+				""
+				"똑딱거리는 블록에 사용하여 파우치에서 저장된 시간의 일부를 사용하여 가속화합니다."
+			]
+			id: "0389F576299659F8"
+			rewards: [{
+				id: "13EF895C54210145"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2AC42696F7106DFC"
+				item: {
+					Count: 1
+					id: "gag:time_sand_pouch"
+					tag: {
+						grains: 940
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: ["플레이어를 동굴과 건물에서 지상에서 가장 가까운 지점으로 순간이동시킵니다."]
+			id: "00431565719265B2"
+			rewards: [{
+				id: "35FE5ABCFEAE3805"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "77C05BB804BCB99F"
+				item: {
+					Count: 1
+					id: "gag:escape_rope"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: ["플레이어를 개인 스폰 지점 또는 활성화된 경우 월드 스폰으로 순간이동시킵니다."]
+			id: "715D18176966A2AB"
+			rewards: [{
+				id: "5305365F282F86FB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "27C8E9B24414C7D2"
+				item: {
+					Count: 1
+					id: "gag:hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"이 마법사의 돌은 번개를 맞은 에너지의 통로가 되어 이제 바인딩된 한 위치로 순간이동하는 데 사용할 수 있습니다! (웅크린 채로 사용하면 바인딩)"
+				""
+				"&o나중에 돌을 재설정하려면 다시 번개를 쳐야 합니다.&r"
+			]
+			id: "2288B868715D98F6"
+			rewards: [{
+				id: "58B5733B08419E27"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "16AEC5A540C5AB66"
+				item: {
+					Count: 1
+					id: "gag:energized_hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			description: ["적용하면 근처의 적대적인 몹이 스폰되는 것을 막는 효과를 플레이어에게 부여합니다."]
+			id: "5193BFAEEDB811FA"
+			rewards: [{
+				id: "6200F2090A19B946"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0B244FF532FD79C4"
+				item: "gag:sacred_salt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"적용하면 근처의 적대적인 몹이 스폰되는 것을 막는 효과를 플레이어에게 부여합니다."
+				""
+				"&9이것은 소금보다 조금 더 오래 지속되며, 더 넓은 영역에서도 작동합니다."
+				"&r"
+			]
+			id: "08F44B6EB3C3AE79"
+			rewards: [{
+				id: "5EFD2C1E543D951F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3F46B8DC65D203FC"
+				item: "gag:sacred_salve"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"적용하면 근처의 적대적인 몹이 스폰되는 것을 막는 효과를 플레이어에게 부여합니다."
+				""
+				"&9이것은 소금이나 연고보다 훨씬 오래 지속되지만 반경도 줄어듭니다.&r"
+			]
+			id: "76EA6976B5571C95"
+			rewards: [{
+				id: "3C0BD60CDA1AAFAD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5EF06E1EA95ECF6F"
+				item: "gag:sacred_balm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["돌에 대한 효율성이 높은 던질 수 있는 폭발물입니다. 파괴하는 모든 블록을 떨어뜨립니다."]
+			id: "00E09F995A3398BE"
+			rewards: [{
+				id: "6B5B02263CE9C220"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1BD384E7312659F6"
+				item: "gag:mining_dynamite"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: ["수중에서만 작동하고 물고기에 대한 피해가 증가하는 던질 수 있는 폭발물입니다. 낚시를 좋아하지 않는다면 완벽합니다!"]
+			id: "1CEB1F86943ED8CE"
+			rewards: [{
+				id: "18CD7C6C96AEA251"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "64EAE82075A81239"
+				item: "gag:fishing_dynamite"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "4E24F97ADF4E366C"
+			rewards: [{
+				id: "68425FB64B66CB2E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "442FF74A70064D63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:gravisand"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			description: ["쳐다보면 레드스톤 신호를 방출합니다."]
+			id: "6CE12F9EBD63ABFA"
+			rewards: [{
+				id: "135E872BF0DE734E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "43FE095BB5721DF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ender_watcher"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["두 지점 사이의 블록 수를 측정하는 데 사용됩니다."]
+			id: "70D23E7FD975D726"
+			rewards: [{
+				id: "542C4CE912BBB60F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3870A8EF35D5DE3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:abacus"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			description: ["슬라임 청크, 즉 슬라임이 스폰될 수 있는 영역을 찾는 데 사용됩니다."]
+			id: "7F50F903FEF3FDFD"
+			rewards: [{
+				id: "1FD2D4E1AC5B4226"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5D3048957969E9EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			description: ["아이템을 보여주기 위한 보이지 않는 아이템 액자!"]
+			id: "3D795EA23FA1D86E"
+			rewards: [{
+				id: "1C6145A671E52254"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2B62B2311326308F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:glass_item_frame"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			description: ["호퍼를 위에 놓으면 아래의 모든 아이템을 떨어뜨립니다."]
+			id: "1A1032A815E0BEE0"
+			rewards: [{
+				id: "42E218A018552864"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "38FD22CD2976D23C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:chute"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			description: ["리젠된 드래곤에게서만 떨어집니다. 겉날개의 복사본을 만드는 데 사용됩니다."]
+			id: "5C054B01A4C3BBE6"
+			rewards: [{
+				id: "146D9232186F2AF9"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4561D807AD64FEF0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:dragon_scale"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			description: ["이 사다리는 매달려 있을 수 있으며 상단 사다리가 있는 경우 블록에 부착할 필요가 없습니다."]
+			id: "60F00B764C6CE1F3"
+			rewards: [{
+				id: "146E0B9101D81C05"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2FEBA351D131FF28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:iron_ladder"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["동물의 먹이를 넣으면 자동으로 동물을 번식시킵니다."]
+			id: "0E4585C54A3E8C31"
+			rewards: [{
+				id: "27F131E3B99FAFA7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3B76F3A33283FC58"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			description: ["플레이어만 활성화할 수 있습니다."]
+			id: "4D7997F821600BF2"
+			rewards: [{
+				id: "1E3991C4DBD728D7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "61EAEF93379F49F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:obsidian_pressure_plate"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "3D788072DF4A89FE"
+			rewards: [
+				{
+					count: 2
+					id: "78279B3F9FFD9F29"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "58E48C82E5EF2CF0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4ED71EC26CF18DF5"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"- &n수로&r는 나무 또는 돌 벽돌과 벌집으로 제작할 수 있습니다."
+				""
+				"- 수로 위로 흐르는 물은 열려 있는 면으로만 흐를 수 있습니다."
+				""
+				"- 수로의 면이 열려 있는지 닫혀 있는지 전환하려면 나무 또는 돌로 만들어졌는지에 따라 도끼 또는 곡괭이로 해당 면을 우클릭하십시오."
+				""
+				"- &n수문(Sluices)&r는 9개의 슬롯으로 구성된 내부 인벤토리를 가진 특수한 유형의 수로이며, 유체가 상단을 통해 흐르고 격자 모양의 측면을 통과할 때 유체 유형에 따라 아이템을 생성합니다."
+				""
+				"- 또한, 특정 아이템은 물이 흐르는 수로를 통해 보내질 수 있으며, 해당 아이템은 특정 아이템을 생산하기 위해 수로 처리됩니다."
+				""
+				"- 예를 들어, 흙을 물로 수로 처리하면 조약돌이나 씨앗이 생성될 수 있습니다."
+			]
+			id: "1115D0E1D7B8C233"
+			rewards: [{
+				id: "15EAD456BCF157B5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "396625D4E5C4CDBB"
+					item: "spelunkery:wooden_sluice"
+					type: "item"
+				}
+				{
+					id: "288859C35B0FE2D0"
+					item: "spelunkery:wooden_channel"
+					type: "item"
+				}
+				{
+					id: "7C237CD9FB84B529"
+					item: "spelunkery:stone_pebble"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "00000000000000B5"
+			rewards: [
+				{
+					count: 3
+					id: "4B52BFA2A59F6B15"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2D00C9095673CB84"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000B6"
+				item: "uppers:upper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+	]
+	title: "&2유용한 장치들&r"
+}

@@ -1,0 +1,1636 @@
+{
+	autofocus_id: "17777CD49B8B6F41"
+	default_hide_dependency_lines: 0
+	default_quest_shape: "hexagon"
+	filename: "highway_to_the_bumblezone"
+	group: "6454BAEA71CB61DD"
+	icon: "the_bumblezone:beehemoth_spawn_egg"
+	id: "76389659C6680826"
+	images: [{
+		height: 4.006144393241168d
+		image: "litv3:textures/misc/rad_bee.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -6.5d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  범블존은 벌집 블록, 꿀 블록, 꿀 결정, 설탕물, 그리고 많은 새로운 벌 관련 블록으로 가득 찬 차원입니다! 마음껏 다양한 생물 군계와 구조물을 탐험하세요. 벌집을 화나게 하지는 마세요..."
+				""
+				" 차원에 들어가는 것은 매우 쉽습니다! 엔더 진주를 아무 벌집이나 벌집 블록에 던지기만 하면(모드에서 추가된 것도 작동합니다!) 차원 안으로 들어가 그곳에서 생성됩니다. 피스톤을 사용하여 플레이어 또는 몹을 벌집이나 벌 둥지 블록 안으로 밀어 넣어 플레이어(몹이나 차량을 탄 상태) 또는 몹을 차원으로 이동시킬 수도 있습니다."
+				""
+				"차원에서 텔레포트하려면 아래로 파서 Y = 0 아래로 떨어지거나 위로 올라가 Y = 256 위로 올라가면 됩니다."
+			]
+			icon: "minecraft:honeycomb"
+			id: "17777CD49B8B6F41"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					id: "03C664A54AB9519A"
+					type: "dimension"
+				}
+				{
+					id: "6ED6A250C59F80CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			title: "♪ 범블존으로 가는 고속도로 ♫"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			description: ["이 챕터를 만들 때 아팠는데, 설탕 차원을 탐험하면서 사탕을 빨아먹으니 몰입감이 아주 좋았습니다."]
+			id: "5E4C69CC15CADF88"
+			rewards: [{
+				count: 8
+				id: "120E8D19EF612A9B"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B034778B633DD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4C69CC15CADF88"]
+			description: ["진지하게, 끔찍합니다. 업그레이드하려고 애쓰지 마세요. 나아지는 게 전혀 없습니다."]
+			id: "3E69CC75B111D4A4"
+			rewards: [{
+				count: 7
+				id: "1EC95F3DA218FE10"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52042FF627E24425"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "최악의 방패"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "3BFBB0CC1C2BE735"
+			rewards: [{
+				id: "3A51689185FECAA1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "323F6FE496B9FA0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:beehive_beeswax"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4C69CC15CADF88"]
+			id: "308701D3BB09B731"
+			rewards: [{
+				id: "7D985DB31FCD54E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5218B252205231CE"
+				item: "the_bumblezone:glistering_honey_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["308701D3BB09B731"]
+			description: [
+				"이 마법 꽃은 특정 구조물에서만 찾을 수 있습니다. 결정화된 꿀이나 자수정과 같은 결정 블록에서만 생존할 수 있습니다. 섬세한 손길 없이도 집어 들고 옮길 수 있으며, 옮길 때 티어와 경험치를 보존합니다."
+				""
+				"아이템이나 레벨을 먹이면 꽃이 최대 7블록, 즉 7티어까지 자랍니다. 어떤 아이템이든 사용할 수 있습니다. 꿀, 판자, 흙, 썩은 살점 등. 일부 아이템은 다른 아이템보다 가치가 높으며, 제가 이해하지 못하는 포인트 시스템을 사용하지만, 엄청난 양의 쓰레기로 이 꽃에 쉽게 연료를 공급할 수 있습니다. 꽃이 키가 커질수록 다음 티어로 성장시키는 데 더 많은 아이템이 필요합니다."
+				""
+				"꽃 인터페이스의 맨 위 슬롯은 책 또는 마법이 부여된 책을 위한 것입니다. 책을 넣으면 티어를 소모하여 원하는 거의 모든 마법으로 책에 마법을 부여할 수 있습니다! 최고 티어인 7에서는 보물 마법 부여도 구매할 수 있습니다! 구매할 수 있는 책의 최고 레벨이 마법 부여의 최고 레벨이 아닐 수도 있습니다. 최고 레벨 &ois&r 사용 가능한 경우 마법 부여 레벨 옆에 작은 별이 표시됩니다."
+				""
+				"기본적으로 이것은 희귀하지만 엄청나게 강력합니다. 무작위 쓰레기 더미를 고레벨 마법으로 바꾸세요!"
+			]
+			id: "76253B8D309F08B1"
+			rewards: [{
+				count: 16
+				id: "44FAFEFF034BAC53"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			subtitle: "꿀 마법 부여"
+			tasks: [{
+				id: "37F2275090890EA7"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BFBB0CC1C2BE735"]
+			id: "3F669E0A5933A36E"
+			rewards: [{
+				id: "08CCC5BAD3FD32B6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B0333FD3B3E6B05"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F669E0A5933A36E"]
+			id: "141EC4ED45517ECB"
+			rewards: [{
+				id: "6C884E8532C77F75"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "벌집 또는 벌 둥지 6개 제작"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
+				criterion: ""
+				id: "11B5307AC6E60AED"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76253B8D309F08B1"]
+			id: "3FCE5DF50001B712"
+			subtitle: "5개 이상의 티어가 소모되는 마법으로 책에 마법 부여"
+			tasks: [{
+				advancement: "the_bumblezone:crystalline_flower/enchant_crystalline_flower"
+				criterion: ""
+				id: "6FE07927427BE35B"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "0E0CFD4D8078AA9C"
+			rewards: [{
+				count: 16
+				id: "7F87736BCE9D3066"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "416E34015E31F5C9"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "42CEB40F9DB55EFD"
+			rewards: [{
+				id: "2CC60F2C600F21F5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "벌집의 보호 없이 벌집에서 꿀 채취"
+			tasks: [{
+				advancement: "the_bumblezone:effects/bee_hit_wrath_of_the_hive"
+				criterion: ""
+				id: "35CA483741B24719"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "1C3EF09C335A666D"
+			subtitle: "벌 또는 사육 블록에게 벌집의 보호를 받을 때까지 먹이 주기"
+			tasks: [{
+				advancement: "the_bumblezone:effects/getting_protection"
+				criterion: ""
+				id: "1844AD9CD40BAB52"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "152B481D2E28F2AD"
+			rewards: [{
+				id: "5BF9A2C5E8E24DB6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5323958243318716"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["152B481D2E28F2AD"]
+			id: "7AA52AB4F0F5A0BA"
+			rewards: [{
+				id: "0EAD3DA7254B562A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "꿀 나침반을 제작하고 사용하여 세포 미로 찾기"
+			tasks: [{
+				id: "7184008314E9B574"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["152B481D2E28F2AD"]
+			id: "3260C4EC442E93EC"
+			rewards: [{
+				id: "2B742DCB9C07FB5D"
+				item: "the_bumblezone:bee_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BB2DC8B02E9A736"
+				item: "the_bumblezone:bee_bread"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1C3EF09C335A666D"
+				"7AA52AB4F0F5A0BA"
+			]
+			description: ["세포 미로는 벌 관련 전리품으로 가득 차 있지만 벌들이 질투심 많게 지키고 있습니다. 내부에 있는 동안 벌집의 보호를 유지하십시오. 그렇지 않으면 모든 방향에서 공격을 받을 것입니다."]
+			id: "2A7822E4D3E74753"
+			rewards: [{
+				id: "17EF64EFEB561892"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "세포 미로 입장"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_cell_maze"
+				criterion: ""
+				id: "5CA514051C829DFE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "50D42DBEECD976D9"
+			rewards: [{
+				id: "1B1AA67AB0ABD2C1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "착용하는 동안 벌을 유인합니다"
+			tasks: [{
+				id: "7AAECD78A3D1387D"
+				item: {
+					Count: 1
+					id: "the_bumblezone:flower_headwear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "7E8B2328DDFEA530"
+			rewards: [{
+				id: "611575A1E220B70F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "왕좌 기둥으로 이어지는 꿀 나침반 찾기"
+			tasks: [{
+				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
+				criterion: ""
+				id: "3AA81B5E5C9587B9"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308701D3BB09B731"]
+			id: "75AF7A2371C28F63"
+			rewards: [{
+				id: "329B80D367E95EC9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0EE35EA1B2784519"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E8B2328DDFEA530"]
+			id: "28A30A075DA149DC"
+			rewards: [{
+				id: "36AD69C0CA604CE9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "왕좌 기둥 입장"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_throne_pillar"
+				criterion: ""
+				id: "5589B35E5E84B59A"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "32D4C8324C73452F"
+			rewards: [
+				{
+					id: "5160EE49D69AAF4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68B046E5A88C298F"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "여왕의 소망 퀘스트라인의 업적을 완료하여 로열 젤리 획득"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_beginning"
+				criterion: ""
+				id: "04BF60F582F4C87E"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			id: "2042611ED9BD1750"
+			rewards: [
+				{
+					id: "337ED21254237756"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "09EED77CB14FBEE8"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "침 스피어로 위더 처치"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
+				criterion: ""
+				id: "6FF9D84046EFA617"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			id: "4AB51BF720381796"
+			rewards: [
+				{
+					id: "6B0007BF0B06A756"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "244CD39428024795"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "벌 갑옷 풀 세트를 착용한 상태로 엔더 드래곤 처치"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
+				criterion: ""
+				id: "2F7D6BC86EE6B83E"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "6271FB2D07ECA712"
+			rewards: [
+				{
+					id: "1596A588C9EFB679"
+					item: "the_bumblezone:buzzing_briefcase"
+					type: "item"
+				}
+				{
+					id: "71348B783B87BA0E"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "여왕과 128번 거래"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
+				criterion: ""
+				id: "076C6FE6DA9CDF83"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "3163182C1EB734ED"
+			rewards: [{
+				id: "71154DB010DEF759"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "꿀 8병 마시기"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
+				criterion: ""
+				id: "71596CE04E8F975F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			description: [
+				"로열 젤리는 강력한 효과를 위해 마시거나 여왕에게 거래하여 매우 좋은 보상을 받을 수 있습니다."
+				""
+				"왕좌 기둥에서 로열 젤리를 훔치려고 하지 마세요. 믿으세요. 그럴 가치가 없습니다."
+			]
+			id: "1E70E5E66DFFF271"
+			rewards: [
+				{
+					id: "62127D01C222FDC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "501D1195DE9AACFF"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1204938A370691A6"
+				item: "the_bumblezone:royal_jelly_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2042611ED9BD1750"
+				"4AB51BF720381796"
+			]
+			description: [
+				"이것을 섭취하면 당신은 영원히 벌집의 친구로 표시됩니다. 결과 없이 세포 미로에 들어가고, 꿀 블록을 부수고, 꿀 슬라임에서 꿀을 가져갈 수 있습니다. 또한 꿀이나 로열 젤리에서 수영하면 재생 효과를 얻을 수 있습니다."
+				""
+				"가장 중요한 것은 이제 발광 왁스로부터 디버프를 받지 않고 영원한 성소에 들어갈 수 있다는 것입니다. 벌의 정수 없이 마지막 방에 도착했더라도 그것 없이는 도전을 할 수 없습니다."
+			]
+			id: "3F8CDD2757D4F2E5"
+			rewards: [
+				{
+					id: "5EEF776F98C70390"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D9F47214E784DEC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "여왕의 소망 업적을 모두 완료하세요!"
+			tasks: [{
+				id: "63F8F285714F1610"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BFBB0CC1C2BE735"]
+			description: ["범블존에서 찾거나, 꿀 콤으로 제작하거나, 벌집 밀랍에서 제련할 수 있습니다."]
+			id: "04A144687C154A3A"
+			rewards: [{
+				id: "365DA5799B2FE1E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1840B1A7A60F85AD"
+				item: "the_bumblezone:carvable_wax"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"04A144687C154A3A"
+				"1E70E5E66DFFF271"
+				"32D4C8324C73452F"
+			]
+			description: ["거의 모든 포션을 포션 양초에 불어넣을 수 있습니다. 불이 켜지면 양초가 꺼지기 전에 약 1분 동안 포션 효과 구름을 방출합니다. 횟수에 상관없이 다시 불을 붙일 수 있습니다."]
+			id: "5E6F8E3DDCC2D933"
+			rewards: [{
+				id: "1B685E3127AD4EA2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C5F1D5887B7394A"
+				item: "the_bumblezone:potion_candle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["좋은 전리품이 있는 고대 엘리트라 코스(또는 riptide 코스, 원한다면)."]
+			id: "5A94B59F6379E63E"
+			rewards: [
+				{
+					id: "0E7B8F7F3CCEAD27"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "355C141C3B475493"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "고대 후프 찾기"
+			tasks: [{
+				icon: "collectibles:ring_jewelry"
+				id: "4E685A7C9D51181A"
+				structure: "the_bumblezone:ancient_hoops"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "4982368FA48385D1"
+			rewards: [
+				{
+					id: "4501D57C526ED68B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "206592DAFB66C29B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "여왕과 거래하여 바람이 잘 통하는 공기 획득"
+			tasks: [{
+				id: "6F2D816AC80AA765"
+				item: "the_bumblezone:windy_air"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["중앙에 자수정 기둥이 있는 고대 꽃가루로 가득 찬 분지."]
+			id: "557FFDE54CC428CB"
+			rewards: [
+				{
+					id: "614F311A972CD8B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "40A16CF4244AF33F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "고대 성소 찾기"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_purple"
+				id: "47A1562F27E95F9D"
+				structure: "the_bumblezone:ancient_shrine"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["거미줄, 양모, 거미 스포너 및 일부 전리품으로 가득 찬 왁스 던전. 거미와 동굴 거미를 죽이는 여왕의 소망 퀘스트를 완료하기에 좋은 장소입니다."]
+			id: "5AA99061B31B1073"
+			rewards: [
+				{
+					id: "7D9A42C93201D58D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6336383BC7A5CD29"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "배틀 큐브 던전 찾기"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_grate"
+				id: "41A8CD19A53B10CA"
+				structure: "the_bumblezone:battle_cubes"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["내부의 벌이 벌 대포를 줄 것입니다 :)"]
+			id: "2358071C97880FCF"
+			rewards: [
+				{
+					id: "33A2E21D0B9B1E8F"
+					item: "simplehats:beehat"
+					type: "item"
+				}
+				{
+					id: "4F4ECD287F723646"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C1BF8E2BF173366"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "벌집 찾기"
+			tasks: [{
+				icon: "simplehats:beehat"
+				id: "54EF277A42D65054"
+				structure: "the_bumblezone:bee_house"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: ["몇 개의 꿀 고치가 있는 촛불로 만든 간단한 파쿠르 코스. 물론, 우리는 이단 점프를 할 수 있고, 블록을 놓을 수 있습니다..."]
+			id: "46BB051650BB2179"
+			rewards: [
+				{
+					id: "36E4E29FC3221E57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5F077C7779903EA1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "촛불 파쿠르 코스 찾기"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "425E4777AE674734"
+				structure: "the_bumblezone:candle_parkour"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			description: ["석궁과 수정 대포를 위한 사격장. 미네랄 블록이 명중 시 대상 상단에서 튀어나옵니다. 여기서 석궁에서 침을 발사하는 여왕의 소망 퀘스트를 완료할 수 있습니다."]
+			id: "5CD46DD50DD7D0F5"
+			rewards: [
+				{
+					id: "796C3B28F91A5DE4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11298ECE9CD21C70"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "대포 사격장 찾기"
+			tasks: [{
+				icon: "minecraft:target"
+				id: "27D4396625A040A3"
+				structure: "the_bumblezone:cannon_range"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			description: ["예뻐요 :)"]
+			id: "482E0B8861900657"
+			rewards: [
+				{
+					id: "37FD924AEC5A8293"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "03AA406F38A6B3FA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "벚꽃 나무 숲 찾기"
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "35E7FBC3BCACD4D2"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			description: ["어떻게 된 일인지 여기에 마을 주민이 있고 그는 슬라임을 키우고 있습니다. 나는 그것에 대해 질문하지 않을 것입니다."]
+			id: "7A451149DAE850DF"
+			rewards: [
+				{
+					id: "3B408DABED1F5766"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6854AF5B93B56007"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "꿀 슬라임 목장 찾기"
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "7F3DD979ABAC0103"
+				structure: "the_bumblezone:honey_slime_ranch"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["어떤 이유로 범블존에 디스코 클럽이 있습니다. 여기서 특별한 레코드를 찾을 수 있습니다."]
+			id: "51FE59E362FBA2BA"
+			rewards: [
+				{
+					id: "398EFA7C2A12EED4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10044B5ACC81C6E6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "댄스 플로어 찾기"
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "6C3BAC92D3AFB2B7"
+				structure: "the_bumblezone:dance_floor"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			description: ["이 고대 정자는 바닥 위로 높이 매달려 있습니다. 그들 중 일부는 보물이 있지만 조심하십시오. 함정도 있습니다."]
+			id: "424982EB2203EE58"
+			rewards: [
+				{
+					id: "285DF5BB23393C80"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4D76CEEEE2464FFA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "매달린 정자 찾기"
+			tasks: [{
+				id: "44167090A273F1C8"
+				structure: "the_bumblezone:gazebuzz_cluster"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["거대한 꿀 분수. 내부에는 가공되지 않은 금과 자수정이 있습니다."]
+			id: "00871A6CA23DCC02"
+			rewards: [
+				{
+					id: "03462B8EBB2EB3AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "39C9FD0E2FCCD4CF"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "더 큰 꿀 분수 찾기"
+			tasks: [{
+				icon: "the_bumblezone:glistering_honey_crystal"
+				id: "0BD3CDEAA67155E2"
+				structure: "the_bumblezone:goliath_honey_fountain"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			description: ["꿀과 설탕물의 큰 분수. 내부에는 결정질 꽃이 있습니다."]
+			id: "3E3FA5F01A9DEB12"
+			rewards: [
+				{
+					id: "5D63B9DC56F9B6FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "57CBC7753911B262"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "꿀 분수 찾기"
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "60EABC52BBD5801A"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			description: ["꽃으로 덮인 거대한 플랫폼이 지붕에서 매달려 있습니다. 매우 예쁩니다. 또한 여기에 여러 개의 결정질 꽃이 있습니다."]
+			id: "23527A46BB0F4A73"
+			rewards: [
+				{
+					id: "414B675BC9FC2F6B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7D52868501F1BE41"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "매달린 정원 찾기"
+			tasks: [{
+				id: "2ED88B9FA8F0D419"
+				structure: "the_bumblezone:hanging_garden"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			description: ["꿀 슬라임과 일부 전리품이 있는 꿀 고치가 있는 왁스 사원."]
+			id: "19189338D654C3E7"
+			rewards: [
+				{
+					id: "1D58F14CBFF9E797"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C41016CF0856E67"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "벌집 사원 찾기"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_bricks"
+				id: "029C5A041A206B48"
+				structure: "the_bumblezone:hive_temple"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			description: ["평소보다 훨씬 더 많은 꿀로 가득 찬 동굴. 여기에는 비헤모스와 꿀 고치가 있습니다."]
+			id: "668ABE710729B3DE"
+			rewards: [
+				{
+					id: "3110F3331035D366"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FA82D9F68DFBBD7"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "꿀 동굴 찾기"
+			tasks: [{
+				icon: "the_bumblezone:filled_porous_honeycomb_block"
+				id: "5B3B5A18A71700AF"
+				structure: "the_bumblezone:honey_cave_room"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			description: ["벌로 가득 찬 큰 왁스 건물. 꼭대기에 도달할 수 있다면 좋은 전리품과 결정질 꽃이 있습니다."]
+			id: "4F161820465F262D"
+			rewards: [
+				{
+					id: "638F4183401EE4BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4A0E94407B542AB1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "호니텔 찾기"
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "469533B31546C758"
+				structure: "the_bumblezone:honitel"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: ["거대한 얼음 블록에 얼어붙은 벌!"]
+			id: "1604B836D235CA08"
+			rewards: [
+				{
+					id: "69AD24385DA8B6B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "228A8CA827F8345E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "얼음 모노리스 찾기"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "58B7E80A65F2BFFB"
+				structure: "the_bumblezone:ice_monolith"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			description: ["실버피쉬와 엔더마이트로 가득한 거대하고 뾰족한 돌 요새입니다. 여기에는 거의 100개에 달하는 스포너가 있으므로 스포너 코어를 얻기에 좋은 장소입니다. 네 개의 돌로 된 스파이크 볼 중앙에는 고대 잔해 조각이 있고, 각 스파이크 끝에는 다이아몬드와 에메랄드 광석이 조금 있습니다. 행운 곡괭이를 가져오면 수백 개의 다이아몬드를 쉽게 얻을 수 있습니다."]
+			id: "60D8F1FBA8863211"
+			rewards: [
+				{
+					id: "0DD72F12BA85697A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4DF2BA40C11862D8"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "마이트 요새 찾기"
+			tasks: [{
+				icon: "the_bumblezone:sugar_infused_stone"
+				id: "480F21D10E1978B7"
+				structure: "the_bumblezone:mite_fortress"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: ["꿀 결정으로 이루어진 거대한 꽃입니다. 여기에는 여러 개의 결정 꽃이 있습니다."]
+			id: "6E04BFCA939F18EE"
+			rewards: [
+				{
+					id: "66BF1770F729C260"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28997C2913473BF3"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "과성장한 꽃 찾기"
+			tasks: [{
+				icon: "the_bumblezone:crystalline_flower"
+				id: "4733F87759D25318"
+				structure: "the_bumblezone:overgrown_flower"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			description: ["유령으로 가득한 거대하고 매달린 고대 벽돌 구조물입니다. 네 개의 꿀 웅덩이 바닥에는 심층암 다이아몬드 광석 조각이 있습니다."]
+			id: "3973C07FBF620DB6"
+			rewards: [
+				{
+					id: "42A1318A2D33DF31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "30A55317A56A10E6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "유령 사육장 찾기"
+			tasks: [{
+				icon: "the_bumblezone:ancient_wax_bricks"
+				id: "299E450905F56761"
+				structure: "the_bumblezone:phantasm_aviary"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["밀랍 돛을 달고 벌들이 승무원인 해적선을 찾을 것이라고는 예상하지 못했지만, 지금 우리는 여기 있습니다. 여기에는 좋은 전리품이 있습니다."]
+			id: "3FF3E7CC68397E21"
+			rewards: [
+				{
+					id: "689A074A2318D87B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "771620452CF9EB57"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "해적선 찾기"
+			tasks: [{
+				icon: "the_bumblezone:beehive_beeswax"
+				id: "00FA5CF8D8D9B949"
+				structure: "the_bumblezone:pirate_ship"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			description: ["그냥 작은 설탕물 개울입니다."]
+			id: "03E055DA952507F3"
+			rewards: [
+				{
+					id: "62A68B1EB74055D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "04BE333EBED3C357"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "꽃가루 덮인 개울 찾기"
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "71CFEFED00522C2A"
+				structure: "the_bumblezone:pollinated_stream"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: ["스팅어 창을 위한 작은 성소일 뿐입니다."]
+			id: "4E46307728B6629F"
+			rewards: [
+				{
+					id: "5D297EF23B9C4345"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6474838C32039E86"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "스팅어 창 성소 찾기"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "621DBD8CE599A4A0"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["이것은... 지하철!? 바람에 휩쓸려 지나가기 전에 잡을 수 있다면 엄청난 양의 전리품이 있습니다."]
+			id: "6CB75A88CEF72A32"
+			rewards: [
+				{
+					id: "4D27016866FB6D44"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "703A3A8298F6B26A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "지하철 찾기"
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "1108781CDFB32448"
+				structure: "the_bumblezone:subway"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3E3FA5F01A9DEB12"
+				"2358071C97880FCF"
+				"4F161820465F262D"
+				"5A94B59F6379E63E"
+				"668ABE710729B3DE"
+				"1604B836D235CA08"
+				"19189338D654C3E7"
+				"00871A6CA23DCC02"
+				"557FFDE54CC428CB"
+				"4E46307728B6629F"
+				"3973C07FBF620DB6"
+				"28A30A075DA149DC"
+				"51FE59E362FBA2BA"
+				"5AA99061B31B1073"
+				"482E0B8861900657"
+				"5CD46DD50DD7D0F5"
+				"3FF3E7CC68397E21"
+				"23527A46BB0F4A73"
+				"03E055DA952507F3"
+				"46BB051650BB2179"
+				"60D8F1FBA8863211"
+				"424982EB2203EE58"
+				"6CB75A88CEF72A32"
+				"7A451149DAE850DF"
+				"6E04BFCA939F18EE"
+			]
+			description: ["이 퀘스트를 위해 6개의 영원한 성소를 &o깰&r 필요는 없지만, 방문은 해야 합니다."]
+			hide_dependency_lines: 1
+			id: "55D2BA70FC1D6603"
+			rewards: [
+				{
+					count: 16
+					id: "6EF492C43233EE99"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "04A399839D4A9E54"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "벌블존의 모든 구조물 방문하기!"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_all_structures"
+				criterion: ""
+				id: "54DC6706907232EB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F8CDD2757D4F2E5"]
+			description: [
+				"영원한 성소는 6개의 거대한 색상으로 구분된 던전입니다. 각 던전은 치명적인 수호자, 함정, 퍼즐로 가득 차 있습니다. 전리품은 주로 네더라이트 조각 또는 주괴 형태입니다. 각 성소의 바닥에는 성소와 같은 색상의 정수를 보상으로 주는 특별한 도전 과제로 가는 문이 있습니다."
+				""
+				"다음 항목을 가져가는 것이 좋습니다:"
+				"- 던전 안의 바람이 부는 공기를 드러내는 데 도움이 되는 약간의 바람이 부는 공기"
+				"- 심해 탐험가 장화"
+				"- 이동성: 돌진, 속도 증가, 추가 점프, 심지어 비행까지"
+				""
+				"&4빨간색,&r &e노란색,&r 및 &9파란색&r 도전 과제의 경우, &6적대감 오브&r를 사용하여 방을 구성하는 청크에서 적대감 수준을 제거하는 것이 좋습니다. 이러한 도전 과제는 몹의 맹공에 맞서 싸우거나 적어도 생존하는 것을 포함하며, 해당 몹에서 적대감 수준을 제거하면 이러한 도전 과제를 훨씬 더 쉽게 수행할 수 있습니다."
+			]
+			id: "7D397DFEB09C4579"
+			rewards: [{
+				id: "56A452BB2620370B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 2.0d
+			subtitle: "벌의 정수를 섭취한 후 영원한 성소에 들어가십시오"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+				criterion: ""
+				id: "2CAB6B1F4B35A2D3"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["화염 저항을 챙기세요."]
+			id: "0D3635E426953676"
+			rewards: [
+				{
+					id: "6E478E0EE45A48E9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "12E512927CCC2DFA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 3
+					id: "692632C52B905DAE"
+					item: "tconstruct:sky_slime_ball"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B89487D41FCD0E6"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["4분 동안 공중에 떠 있을 수 있다면 그냥 이깁니다."]
+			id: "695BBDE815DF2FAB"
+			rewards: [
+				{
+					id: "65FDB2B111B3471F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0F9C27E7BFC2F5BF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "74C7D99F169B5531"
+					item: "tconstruct:ender_slime_ball"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7081BCAE223B7391"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["수중 호흡 및 수중 이동성을 챙기세요."]
+			id: "6EF3CDF593D32C2B"
+			rewards: [
+				{
+					id: "47C9392B3C57FA3F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "06F79F5B8D0C5A56"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "39DAB24DF7A2269F"
+					item: "tconstruct:ender_slime_ball"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "336C59C452039F2C"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["플랫폼에 서서 그의 흙덩이를 다시 쳐서 그를 이길 수 있습니다. 저도 그걸 알아내는 데 시간이 좀 걸렸습니다."]
+			id: "00EAD934C0A931F5"
+			rewards: [
+				{
+					id: "698A743622662127"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0994173D4EFA92B5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 3
+					id: "6803FFCE94458832"
+					item: "tconstruct:sky_slime_ball"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B750EF86B1BB90B"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["당신의 이동성이 &o정말&r 좋기를 바랍니다. 또한, 넉백 면역은 여기서 매우 유용합니다."]
+			id: "519D24DCF148C17C"
+			rewards: [
+				{
+					id: "512B341390E1D095"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "265282296744768D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "7BC67E2ED36D802C"
+					item: "tconstruct:ichor_slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25F90470D3737BB7"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["기술적으로 이것은 보스입니까? 벌블존의 최종 보스가 될 것이라고는 예상하지 못했지만, 어쨌든 저는 받아들일 겁니다."]
+			id: "50751D78FFE7BD1C"
+			rewards: [
+				{
+					id: "33CDF29D5E8DF8FE"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1BB3DD396F61A49E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "57D974B0159DC2C7"
+					item: "tconstruct:ichor_slime_ball"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F78FC327A191D06"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04A144687C154A3A"]
+			id: "32D32DA17E287D08"
+			rewards: [{
+				id: "7E2A09C59A5748A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E09756A5970EBAB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "the_bumblezone:super_candles"
+					}
+				}
+				title: "아무 #the_bumblezone:super_candles"
+				type: "item"
+			}]
+			title: "슈퍼 촛불"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["이 퀘스트 챕터는 @Samielflame님이 했습니다."]
+			icon: "kubejs:star"
+			id: "120A73FF3B45774E"
+			rewards: [{
+				id: "6F575FCD3E016B99"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				id: "29F7B67A646DC1E0"
+				type: "checkmark"
+			}]
+			title: "크레딧!"
+			x: 9.0d
+			y: -4.5d
+		}
+	]
+	title: "&e벌블존으로&r"
+}

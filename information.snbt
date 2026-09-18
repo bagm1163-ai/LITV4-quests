@@ -1,0 +1,808 @@
+{
+	autofocus_id: "0000000000001231"
+	default_hide_dependency_lines: 0
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "information"
+	group: ""
+	icon: "kubejs:help"
+	id: "06205F0004E690D7"
+	images: [{
+		alpha: 200
+		height: 15.027027027027026d
+		image: "litv3:textures/misc/info.png"
+		rotation: 0.0d
+		width: 22.0d
+		x: 5.0d
+		y: 1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Life in the Village 4&r 모드팩에 오신 것을 환영합니다!"
+				""
+				"이것은 여러분의 가이드/퀘스트 북입니다. 여기에서 보상과 몇 가지 설명이 포함된 가이드 진행을 찾을 수 있습니다."
+				""
+				"보상을 받으려면 위의 &6보상&r 상자 안의 보상을 클릭하기만 하면 됩니다. 시작할 때 &n간단한 스타터 하우스&r를 얻을 수 있습니다."
+				""
+				"다음 퀘스트로 이동하려면 닫기 &c&lX&r 버튼 아래의 의존성 보기 버튼 &6▶&r을 클릭하여 다음 사용 가능한 퀘스트를 보거나 완료된 금색 윤곽선 퀘스트에 연결된 불이 켜진 퀘스트를 클릭하면 됩니다."
+				""
+				"일부 퀘스트에는 &n여러 페이지&r가 있습니다. 스크롤 휠 또는 오른쪽 하단에 있는 버튼으로 다음 페이지로 전환할 수 있습니다."
+				""
+				""
+				"{@pagebreak}"
+				"스타터 하우스:"
+				"{image:litv3:textures/misc/start_houses.png width:200 height:350 align:center}"
+			]
+			id: "0000000000000117"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "56FAB739C616F0BF"
+				table_id: 1068058522884565778L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0000000000000118"
+				type: "dimension"
+			}]
+			title: "&b퀘스트북을 확인하세요!&r"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"이 팩의 퀘스트 대부분은 필요한 아이템을 인벤토리에 넣어 획득하여 완료됩니다. 이 경우 오른쪽 상단 모서리에 자동으로 팝업 메시지가 표시됩니다."
+				""
+				"체크 표시 퀘스트 유형(일반적으로 설명을 제공)은 이 퀘스트와 같이 작업 상자의 확인란을 클릭하여 퀘스트를 완료하기만 하면 됩니다(읽었다는 확인으로 :])."
+				""
+				"마지막으로 보상을 받으려면 위의 보상 상자 안의 보상을 클릭하기만 하면 됩니다. 시작할 때 약간의 빛을 내기 위해 횃불을 얻을 수 있습니다."
+			]
+			icon: "minecraft:writable_book"
+			id: "0000000000000F88"
+			rewards: [{
+				id: "0000000000000F8A"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "0000000000000F89"
+				title: "퀘스트 유형"
+				type: "checkmark"
+			}]
+			title: "퀘스트 유형 및 보상"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"JEI 사용 방법 (인벤토리에서 화면 오른쪽에 있는 모든 게임 아이템을 보여주는 모드)"
+				""
+				"• 아이템 위에 마우스를 올리고 \"R\" 키(레시피)를 누르면 해당 아이템의 레시피가 표시됩니다."
+				"• \"U\" 키(사용)를 누르면 해당 아이템을 사용하여 제작대와 기계를 통해 무엇을 만들 수 있는지 보여줍니다."
+				"• 모드 이름으로 검색하려면 검색 상자에서 검색하기 전에 \"@\" 키를 사용하십시오. (예: @notreepunch)"
+				"• 클릭하지 않고 검색 상자를 선택하려면 플레이어는 Ctrl + F를 누를 수 있습니다."
+				"• 레시피를 북마크하려면(나중에 더 쉽게 제작할 수 있도록 인벤토리 화면 왼쪽에 있는 메뉴에도 저장됨): 아이템 위에 마우스를 커서를 올리고 + A를 누르세요."
+				""
+			]
+			id: "000000000000009B"
+			rewards: [{
+				id: "000000000000035C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "게임 내 아이템 및 레시피 브라우저"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000009C"
+				title: "Just Enough Items"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"몇 가지 다른 작은 기능:"
+				""
+				"- 진홍빛 및 뒤틀린 보트는 방화 기능이 있습니다."
+				"- 공허로 떨어지는 경우 - 죽는 대신 하늘에서 다시 떨어집니다."
+				"- 염료를 재배할 수 있습니다 (@Floralis)"
+				"- 더 많은 티어의 엔더 상자"
+				"- 빛 오버레이"
+				"- 아기 몹 없음"
+				"- 돼지린 평판 시스템 (지혜)"
+				"- 몹 생성을 방지하는 특수 횃불"
+				"- 죽음 후에도 유지되는 코스메틱 갑옷 슬롯"
+			]
+			icon: "minecraft:barrier"
+			id: "0000000000001231"
+			tasks: [{
+				id: "0000000000001232"
+				title: "새로운 메커니즘"
+				type: "checkmark"
+			}]
+			title: "기타 아이템/효과 및 메커니즘"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000F88"]
+			icon: "kubejs:help"
+			id: "759565BD4CB7872D"
+			size: 1.0d
+			subtitle: "그것들은 당신의 플레이에 도움이 될 수 있는 유용한 정보를 담고 있습니다."
+			tasks: [{
+				id: "55399A3A9CF095CE"
+				type: "checkmark"
+			}]
+			title: "정보 퀘스트"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"몇 가지 문제와 레시피 불일치가 있을 수 있습니다. 모든 아이템과 블록 상호 작용을 확인하기가 어렵기 때문에 이것은 &o아마도&r 제 실수일 것입니다."
+				""
+				"이 팩은 제 자유 시간 동안 개발되었으며 플레이어의 피드백에 따라 시간이 지남에 따라 개선될 것입니다."
+				""
+				"이상하게 보이는 것을 발견하면 github 또는 discord에 보고하십시오."
+				""
+				"&2이해해 주셔서 감사합니다. 문제가 발생하면 죄송합니다.&r"
+				""
+				"https://github.com/dr3ams/Life-in-the-Village-4"
+			]
+			icon: "kubejs:icon_exclamation"
+			id: "2A9DC8C72AD9AED0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "이해하고 용서하세요"
+			tasks: [{
+				id: "5CCB77F4EFDC3569"
+				type: "checkmark"
+			}]
+			title: "레시피 문제 및 비호환성"
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"청크를 청구하려면 &9월드 맵을 열고&r (M) 청구하려는 청크를 &9오른쪽 클릭하세요&r."
+				""
+				"드롭다운 메뉴에서 '&9청크 청구&r'를 선택하세요."
+				""
+				"서버에서 플레이하는 경우 이미 청구된 청크를 클릭하고 '&9선택된 청크 강제 로드&r'를 선택하여 청크를 강제 로드할 수도 있습니다."
+			]
+			icon: "kubejs:lock"
+			id: "1539FF1BB1B405C9"
+			tasks: [{
+				id: "7422BA6FEAA82318"
+				type: "checkmark"
+			}]
+			title: "청크 청구"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"모드: &oFTB 팀&r"
+				"&2팀&r을 만들려면 다음을 사용하세요."
+				""
+				"&2/ftbteams party create [팀_이름]&r"
+				""
+				"하나의 팀에 있으면 여러 사람이 함께 동일한 퀘스트를 완료할 수 있습니다."
+				"&9&n                                                  &r&9               "
+				"모드: &oOpen Parties and Claims&r"
+				"&3파티&r를 만들려면 다음을 사용하세요."
+				""
+				"&3/openpac-parties create&r"
+				""
+				"파티는 청크 청구 및 청구된 청크 내의 플레이어 권한과 관련이 있습니다."
+			]
+			icon: "kubejs:star"
+			id: "750C1B65255EB146"
+			tasks: [{
+				id: "5631A0CD11BC7726"
+				title: "팀"
+				type: "checkmark"
+			}]
+			title: "팀 및 파티"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&5⭐ 가마솥&r"
+				""
+				"- 모든 액체를 저장할 수 있습니다."
+				"- 포션과 염료를 혼합하는 데 사용할 수 있습니다."
+				"- 물이나 포션을 담고 있을 때 아래에 열원이 있으면 끓일 수 있습니다."
+				"- 끓는 가마솥은 끓는 피해를 입힐 수 있습니다."
+				"- 스플래시 또는 잔류 포션 가마솥에 들어가면 해당 포션이 적용됩니다."
+				"- 스튜를 만드는 데 사용할 수 있습니다. 끓는 물 가마솥에 재료를 던져 넣기만 하면 됩니다."
+				" "
+				"&5⭐ 책상&r"
+				""
+				"- 책과 깃펜을 들고 있을 때 깃펜 버튼과 잉크통 버튼을 추가하는 새로운 GUI가 있습니다."
+				"- 잉크통을 클릭하여 사용 가능한 글꼴 색상을 순환합니다."
+				"- 깃펜을 클릭하여 사용 가능한 글꼴을 순환합니다."
+				"- 이제 호퍼와 상호 작용할 수 있습니다!"
+				" "
+				"&5⭐ 랜턴&r"
+				""
+				"- 벽에 걸 수 있습니다. 모든 랜턴에서 작동합니다."
+				""
+				"&5⭐ 매달린 표지판&r"
+				""
+				"- 양쪽 면에 모든 아이템을 담을 수 있습니다."
+				"- 배너 패턴을 표시할 수도 있습니다."
+				""
+				"&5⭐ 카펫&r"
+				"- 슬래브 위에 놓을 수 있습니다."
+				"- 계단 위에 놓을 수 있습니다."
+				""
+				"&5⭐ 케이크&r"
+				"- 두 개를 겹쳐서 쌓을 수 있습니다. 모든 케이크에서 작동합니다."
+				""
+				"&5⭐ 연꽃잎&r"
+				""
+				"- 모든 블록을 그 위에 놓을 수 있습니다."
+				" "
+				"&5⭐ 몹 해골&r"
+				""
+				"- 쌓을 수 있습니다. 모든 조합의 모든 해골에서 작동합니다."
+				"- 촛불을 위에 놓을 수 있습니다."
+				"- 촛불은 해골에 왁스 오버레이를 남깁니다."
+				" "
+				"&5⭐ 배너 및 화분&r"
+				""
+				"- 천장에 놓을 수 있습니다."
+				""
+				"&5⭐ 철사 덫 갈고리&r"
+				"- Shift 클릭 시 도구를 보관할 수 있습니다."
+			]
+			icon: "supplementaries:cog_block"
+			id: "68E94396D20366E4"
+			tasks: [{
+				id: "125A6F326A10264B"
+				title: "기존 블록 다수 조정"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&n&5더 나은 엔드 섬&r&r"
+				""
+				"흑요석 기둥, 엔드 관문, 스폰 발판, 섬 중앙의 차원문 자체가 모두 재설계되었습니다. 또한, 드래곤은 더 이상 처음부터 스폰되지 않으며, 플레이어가 중앙에 있는 종탑에 가까워지면 소환됩니다."
+				""
+				"&l드래곤을 다시 소환하려면&r, 4개의 수정이 더 이상 차원문 바로 옆에 있지 않습니다. 대신, 탑 내부 바닥에 4개의 기반암 블록이 있으며, 건물의 각 방향 날개에 하나씩 있습니다. 이 4개의 블록에 수정을 놓으면 드래곤을 다시 소환할 수 있습니다. 그렇긴 하지만, 저희는 모드에 익숙하지 않은 플레이어의 혼란을 피하기 위해 바닐라 수정 소환 위치도 여전히 지원합니다."
+				""
+				"&n&5널스케이프&r&r"
+				""
+				"엔드의 정체성을 유지하는 방식으로 엔드 생성을 전반적으로 개선합니다. &0&o완전한 황무지 영역인 &r&r 널스케이프는 광활한 엔드에서 당신을 작고 외롭게 느끼게 할 것입니다. 당신 대 공허, 그 이상도 이하도 아닙니다."
+				""
+				"널스케이프는 엔드의 높이를 384블록으로 늘리고 재료 과학에 기반한 새로운 지형 시스템을 도입합니다. 기본적으로 엔드의 여러 지역은 매우 큰 규모로 서로 다른 속성과 다른 '느낌'을 가지고 있어 지형 모양에 거의 무한한 변화를 줄 수 있습니다. 스펀지 같은 다공성 지형에서 늘어난 외계 풍경, 겹쳐진 둥근 섬에 이르기까지, 아무리 멀리 가도 새롭고 흥미로운 지형을 발견할 수 있습니다."
+			]
+			icon: "minecraft:dragon_head"
+			id: "2620A08E1295B3A3"
+			subtitle: "모드: YUNG's Better End Island, Nullscape"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2D5F4D54C3C6EDF1"
+				type: "dimension"
+			}]
+			title: "엔드 정비"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"먼저 앨범을 제작한 다음 적대적인 몹을 처치해야 합니다. 적대적인 몹은 무작위 희귀도를 가진 카드 팩을 드롭할 확률이 있습니다. 팩을 열면 앨범에 사용할 수 있는 5장의 카드를 얻을 수 있습니다."
+				""
+				"&l&2앨범은 5가지 범주로 나뉩니다.&r&r"
+				""
+				"- 도구"
+				"- 갑옷"
+				"- 몹"
+				"- 자연"
+				"- 아이템"
+				""
+				"&l&2각 카드에는 사용자 지정 매개변수가 있습니다.&r&r"
+				""
+				""
+				"- 카드 번호 -> 앨범에서 올바른 슬롯을 식별하는 데 사용됩니다."
+				"- 카드 범주 -> 위의 범주 목록 참조"
+				"- 카드 희귀도 -> 카드 희귀도 (일반=최악, 신화=최고)"
+				"- 카드 가치 -> 희귀도에 따른 가치"
+				""
+				"&n&l&5보너스&r&r&r"
+				""
+				"앨범 카드 컬렉션으로 특정 임계값에 도달하면 &1저항력&r/&c재생력&r/&4추가 체력&r 등과 같은 지속 효과를 얻을 수 있습니다."
+				""
+				"이러한 임계값은 특정 양의 포인트를 갖거나 전체 범주를 채워 잠금 해제됩니다."
+			]
+			id: "2D02F0E1C3DFBCA5"
+			subtitle: "수집가 앨범을 채워 캐릭터를 강화할 수 있는 다양한 희귀도의 900개의 새로운 수집 가능한 카드입니다."
+			tasks: [{
+				id: "2545C1126B7F5424"
+				item: "collectorsalbum:common_card_pack"
+				type: "item"
+			}]
+			title: "수집가 앨범"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&5&n패시브 스킬 트리&r&r"
+				""
+				"시작하려면 &a경험치&r를 모아 첫 번째 스킬 포인트를 획득하세요."
+				""
+				"그런 다음 O키를 누르세요. (기본 키, 작동하지 않으면 키 바인딩을 확인하세요)."
+				""
+				"그런 다음 &5직업&r을 선택하세요. 하지만 신중하게 선택하세요. &n변경할 수 없습니다.&r"
+				""
+				"가치가 있다고 생각되면 나중에 다른 직업으로 경로를 지정할 수 있습니다."
+				""
+				"&n스킬 포인트의 최대 수는 55개입니다.&r 현명하게 선택하세요. (특수 아이템으로 나중에 초기화할 수 있습니다.)"
+			]
+			icon: "create:experience_nugget"
+			id: "1A6295743A494017"
+			rewards: [{
+				id: "38CA208D214B1E77"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "46C5AFE3AA95EE33"
+				points: 0
+				type: "xp"
+				value: 1
+			}]
+			title: "&5&n패시브 스킬 트리&r&r"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["444EE0B011D2925F"]
+			description: [""]
+			icon: "minecraft:crafting_table"
+			id: "1D6D50ECC5936A2D"
+			rewards: [
+				{
+					command: "/curios add ring @s 1"
+					elevate_perms: 1
+					exclude_from_claim_all: 1
+					icon: "artifacts:onion_ring"
+					id: "1AA44AF1304BA127"
+					silent: 1
+					title: "+1 반지 장신구 슬롯"
+					type: "command"
+				}
+				{
+					id: "5A2F73AA6BD2B387"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "29B8E07834A64598"
+				type: "checkmark"
+			}]
+			title: "&6모험 시작&r &2챕터 완료!&r &6챕터 완료!&r"
+			x: -3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1D0517C3BEA06389"]
+			icon: "minecraft:netherrack"
+			id: "5D831079EF09607F"
+			rewards: [
+				{
+					id: "5535D61A46A4A75C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "097F11B95A319DBF"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0875E39C9DB97797"
+				type: "checkmark"
+			}]
+			title: "&6네더&r &4챕터 완료!&r &6챕터 완료!&r"
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["66690CB79DA211EF"]
+			icon: "supplementaries:globe"
+			id: "7621F5502716F377"
+			rewards: [
+				{
+					id: "271D44F2E2CC33C3"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "07611DA52F9EC5CF"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "152CD573CAD135F5"
+				type: "checkmark"
+			}]
+			title: "&6세계 일주&r &3챕터 완료!&r &6챕터 완료!&r"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["76389659C6680826"]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:bumble_bee_chestplate_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1CE193AD339043B0"
+			rewards: [
+				{
+					id: "58C07FE6E8EB0A69"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "2EA8A3C1107192E9"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "44446D6DF703F7F7"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "62C26B3B6F788EE1"
+				type: "checkmark"
+			}]
+			title: "&6범블존으로!&r &e챕터 완료!&r &6챕터 완료!&r"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5A62415E6BEF0970"]
+			icon: "minecolonies:supplycampdeployer"
+			id: "7B095B8B085F8A4B"
+			rewards: [{
+				id: "01973FA3848D55F0"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2100C97E4F924FF3"
+				type: "checkmark"
+			}]
+			title: "&6나의 콜로니&r &6챕터 완료!&r"
+			x: 3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["62E81CB0EB2A6987"]
+			icon: "farmersdelight:cooking_pot"
+			id: "390B8F10562FF1CB"
+			rewards: [
+				{
+					id: "1AA583C874AB749C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "3ABD132DA78FC4C1"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1E99039B9CF36091"
+				type: "checkmark"
+			}]
+			title: "&6요리&r &6챕터 완료!&r"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0000000000000067"]
+			icon: "minecraft:wheat"
+			id: "38DAB94E5134F3C0"
+			rewards: [
+				{
+					id: "0EB3B8BB5881F0FA"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "0B47DCBE4AF70FEB"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "37C7FBD32916E432"
+				type: "checkmark"
+			}]
+			title: "&6농사&r &6챕터 완료!&r"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7DD3034D8780A70E"]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "create:brass_block"
+				}
+			}
+			id: "3354D69B05F00218"
+			rewards: [
+				{
+					id: "381600E796AF3C52"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					command: "/curios add belt @s 1"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "toolbelt:item/belt"
+						}
+					}
+					id: "1907562A678F31CB"
+					title: "+1 허리띠 장신구 슬롯"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20305541C056C058"
+				type: "checkmark"
+			}]
+			title: "&6Tinker's Workshop&r &6챕터 완료!&r"
+			x: 12.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0817BDFE298D5C86"]
+			icon: "create:flywheel"
+			id: "0D89799641F180F4"
+			rewards: [
+				{
+					id: "10BE2D54CA97B486"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					command: "/curios add trinket @s 1"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "curios:slot/empty_curio_slot"
+						}
+					}
+					id: "5F45E9923DEB096C"
+					title: "+1 장신구 장신구 슬롯"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "56D42383DBB4FA53"
+				title: "만들기"
+				type: "checkmark"
+			}]
+			title: "&6Create&r &6챕터 완료!&r"
+			x: 11.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			icon: "minecraft:honeycomb"
+			id: "7383A9B79FCC0698"
+			rewards: [
+				{
+					id: "7DBD210CE91651AC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "3A494D221CFC1485"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "16F90A30DB94CFF0"
+				title: "벌"
+				type: "checkmark"
+			}]
+			title: "&6Busy Bees&r &6챕터 완료!&r"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			description: [
+				"&6자연 구조물의 상자는 여러 플레이어가 약탈할 수 있으며 이미 약탈한 구조물을 나타내는 데 도움이 됩니다."
+				""
+				"이 상자는 &6Lootr&r 상자이며, 마주치는 모든 플레이어에게 개별 전리품을 제공합니다."
+				""
+				"상자에 넣은 아이템도 다른 플레이어에게 보이지 않습니다."
+				""
+				"일부 구조에서는 통과 셜커 상자 형태로도 나타날 수 있습니다."
+			]
+			id: "3DAF04226327EE09"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "213C62C9917B22E0"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&9Corail Tombstone&r은 Minecraft에서 다양한 구성 옵션, 세계를 발견하도록 장려하는 많은 기능 및 모드 간의 여러 호환성을 제공하여 죽음을 처리합니다."
+				""
+				"또한 &a&n특전 시스템&r&r인 죽음의 지식과 장식 무덤을 배회하고 영원한 선고에서 벗어날 방법을 기다리는 영혼의 도움으로 마법 부여 가능한 아이템을 기반으로 하는 &5마법&r 시스템을 도입합니다. 게임 내 화면을 통해 플레이어 기본 설정을 구성하고 정보 요약집에 액세스하고 특전을 선택할 수 있습니다."
+			]
+			id: "1ED269967D867860"
+			subtitle: "더 나은 생존력과 탐험을 위한 많은 기능으로 죽음 시 인벤토리 아이템을 안전하게 보관합니다."
+			tasks: [{
+				advancement: "tombstone:adventure/first_knowledge"
+				criterion: ""
+				id: "771BE235B704F53A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"인벤토리 오른쪽 하단 및 특정 기타 인터페이스에서 찾을 수 있는 휴지통 슬롯을 사용하여 원치 않는 아이템을 삭제할 수 있습니다."
+				""
+				"아이템이 이 슬롯에 있으면 다른 아이템이 슬롯에 놓일 때까지 삭제되지 않아 실수로 아이템을 삭제할 가능성이 줄어듭니다."
+				""
+				"클릭하고 드래그하여 슬롯을 원하는 위치로 이동할 수 있으며 키 바인딩(&3기본 T&r)으로 켜고 끌 수 있습니다."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "trashslot:item/trashcan"
+				}
+			}
+			id: "65278C521CB7794B"
+			tasks: [{
+				id: "0A6D9EFC81898152"
+				title: "휴지통 슬롯"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"많은 퀘스트에서 &e코인&r을 제공하며, 이 코인은 &e코인 교환&r 챕터에서 유용한 아이템으로 교환할 수 있습니다."
+				""
+				""
+				"{\"text\": \"코인 교환은 여기\", \"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12AA5A2ECF315050\"}}"
+			]
+			id: "55C35399F4E1776C"
+			tasks: [{
+				id: "25641152E7BF41D9"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "코인 교환"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"두 세트의 갑옷, 즉 하나는 전시용, 하나는 기능용으로 착용할 수 있습니다."
+				""
+				"스킨을 위해 갑옷을 숨길 수도 있습니다."
+				""
+				"키(기본적으로 '없음'으로 설정되어 있으며, 인벤토리 범주에서 컨트롤에서 변경해야 함) 또는 화려한 갑옷 인벤토리를 열기 위해 인벤토리 화면에 추가된 버튼(캐릭터 오른쪽 하단, Baubles 버튼과 유사)을 누를 수 있습니다. 왼쪽은 일반 갑옷 슬롯이고 오른쪽은 화려한 갑옷 슬롯입니다."
+				""
+				"화려한 갑옷 슬롯에 놓인 갑옷은 디스플레이 용도로만 사용되며 아무런 효과가 없습니다."
+				""
+				"&3또한 많은 화려한 갑옷 세트가 있습니다. JEI에서 @cosmetic 또는 @hats를 검색하세요.&r"
+			]
+			icon: {
+				Count: 1
+				id: "cosmeticarmoursmod:maid_outfit_black_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AD533ABD19BF7AC"
+			rewards: [{
+				id: "66938EA20AF5C3FF"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cosmeticarmoursmod:cosmeticarmours_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2735386201A8C24A"
+				title: "화려한 갑옷 슬롯"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&2벽 매달리기&r: 벽으로 점프하여 벽 점프 키(LSHIFT)를 누르세요."
+				""
+				"&a벽 점프&r: 벽에 붙어 있는 동안 W 키를 계속 누르고 LSHIFT 키를 놓아 벽 점프를 하세요"
+				""
+				"&6이단 점프&r: 공중에서 선택적으로 점프할 수 있습니다. 마법 부여 시 사용 가능합니다."
+				""
+				"&4가파른 경사 보조&r: 공중에 떠 있는 동안에도 계단을 오르고, 울타리를 뛰어넘을 수도 있습니다."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tconstruct:gui/modifiers/armor/lightspeed"
+				}
+			}
+			id: "184FAD3C9A66DBA7"
+			tasks: [{
+				id: "208FDB4E2A217DB1"
+				type: "checkmark"
+			}]
+			title: "더 많은 이동 옵션"
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "&l&f⭐ 정보&r&r"
+}

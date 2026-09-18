@@ -1,0 +1,833 @@
+{
+	autofocus_id: "2146186B43D64F53"
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	disable_toast: 1
+	filename: "shop"
+	group: ""
+	icon: "kubejs:gold_coin"
+	id: "0000000000000579"
+	images: [
+		{
+			height: 2.0d
+			hover: ["Copper Coin"]
+			image: "kubejs:textures/item/copper_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Diamond Coin"]
+			image: "kubejs:textures/item/diamond_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Gold Coin"]
+			image: "kubejs:textures/item/gold_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Iron Coin"]
+			image: "kubejs:textures/item/iron_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 0.4d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 0.4d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 0.4d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Dungeon Coin"]
+			image: "kubejs:item/monster_coin"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 13.0d
+			image: "litv3:textures/misc/quest-market.png"
+			order: -1
+			rotation: 0.0d
+			width: 23.884561891515993d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 10.0d
+			image: "litv3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/proofofwork"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "minecraft:stone"
+			id: "7525A4AAA54D2F0F"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "6AB5DF7E610ADC8A"
+				table_id: 8073191519896831574L
+				type: "choice"
+			}]
+			subtitle: "화강암/섬록암/안산암용"
+			tasks: [{
+				consume_items: 1
+				count: 64
+				disable_toast: 1
+				id: "6CCAEDACC1C14C99"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "돌 교환"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "kubejs:copper_coin"
+			id: "12AA5A2ECF315050"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "219789E37A43CCEB"
+				table_id: 6888013663897817331L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&o선택형 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "17B7046770CA5003"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			icon: "kubejs:iron_coin"
+			id: "4CA69F473539E565"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "671E70F8DE081718"
+				table_id: 3673153046364661600L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&o선택형 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "0D11EF81DDA0EF14"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "kubejs:gold_coin"
+			id: "2146186B43D64F53"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "1BAD7CFC60A2A7CF"
+				table_id: 6733206692322637508L
+				team_reward: 0
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&o선택형 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "7035844CA6BDC17C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "kubejs:diamond_coin"
+			id: "0802FC6EE2B78153"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "0E1498775B7AE2F0"
+				table_id: 849472112562879498L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&2&o선택형 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "266B9F8F0D5CEBDB"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			id: "308D3B4CF9E12F88"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "4EDABC5B8A7DF26C"
+				table_id: 3101518903568742149L
+				type: "choice"
+			}]
+			subtitle: "모든 종류의 나무용"
+			tasks: [{
+				consume_items: 1
+				count: 64
+				disable_toast: 1
+				id: "637C2DCF5167900B"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "숯 교환"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			id: "4F57DAF1F5977220"
+			rewards: [{
+				id: "5BFAFEF42F39D7A9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: 1
+				count: 10
+				disable_toast: 1
+				id: "3B76B53DA220C150"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "구리 주화 10개 -> 철 주화 1개"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			id: "5B4C555AD9501601"
+			rewards: [{
+				id: "574B75A1E4A49EFE"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				count: 5
+				disable_toast: 1
+				id: "1542B13676AAB991"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "철 주화 5개 -> 금 주화 1개"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			id: "42923C8C0A146C90"
+			rewards: [{
+				id: "302D5A396AFB13C4"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				count: 5
+				disable_toast: 1
+				id: "2DD96D20A13F59E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "금 주화 5개 -> 다이아몬드 주화 1개"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "minecraft:bricks"
+			id: "6BFB8B621FA02308"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "7B726DAB6F3851A3"
+				table_id: 4221274870162148554L
+				type: "choice"
+			}]
+			subtitle: "&2&o선택형 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "7FCDC029B1D69443"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "건축 자재"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: 1
+			icon: "simplehats:hatbag_common"
+			id: "3B33674AB3EBE3C0"
+			rewards: [{
+				id: "74EC1357FB41CF9B"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				count: 5
+				disable_toast: 1
+				id: "7A42C627059CC2F8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "일반 모자 가방"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "simplehats:hatbag_uncommon"
+			id: "7B3137C80284F3E0"
+			rewards: [{
+				id: "794E01704DCD5E3A"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "240A4DECB750B673"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "흔치 않은 모자 가방"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "simplehats:hatbag_rare"
+			id: "3790D44A9236B68A"
+			rewards: [{
+				id: "01531153C8F1FA50"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "794C07D85E334174"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "희귀한 모자 가방"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "simplehats:hatbag_epic"
+			id: "4A836610C6F71BBF"
+			rewards: [{
+				id: "54E9DC3951876556"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "5C81A46FF8DB86B6"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "에픽 모자 가방"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			description: [
+				"호빗 집과 지하 집은 약간의 지형 변경이 필요하거나 미리 파놓은 구멍에 배치해야 합니다."
+				""
+				"&o새로운 구조물이 계속 추가될 예정입니다...&r"
+				""
+				"여기에 당신의 구조물을 넣고 싶으신가요? 팩 디스코드에서 dreams에게 메시지를 보내세요."
+				""
+				"&5&n페이지를 넘기려면 화살표를 클릭하세요&r&r"
+				"{@pagebreak}"
+				"(집)"
+				"{image:litv3:textures/misc/q-s-house.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(초보자 구획)"
+				"{image:litv3:textures/misc/q-s-plot.png width:200 height:170 align:1}"
+				"{@pagebreak}"
+				"(초보자 공장)"
+				"{image:litv3:textures/misc/q-s-factory.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(초보자 농장)"
+				"{image:litv3:textures/misc/q-s-barn.png width:200 height:190 align:1}"
+				"{@pagebreak}"
+				"(초보자 온실)"
+				"{image:litv3:textures/misc/q-s-greenhouse.png width:200 height:190 align:1}"
+			]
+			disable_toast: 1
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					color: 16777215
+					overpowered: 1
+					size: 1
+					state: 0
+				}
+			}
+			id: "3723EA252A7D261A"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "07EB4C0CA672E30F"
+				table_id: 2581585967323693493L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "62602CEB29F0CEC5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "커스텀 구조물 선택"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			id: "72029F2DA090C4F4"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "70A564CD037F1914"
+				table_id: 3101518903568742149L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: 1
+				count: 64
+				disable_toast: 1
+				id: "211372CDA8610E27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "regions_unexplored:logs"
+					}
+				}
+				title: "모든 #regions_unexplored:logs"
+				type: "item"
+			}]
+			title: "개조된 통나무 -> 일반 통나무 교환"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "compactxpbottles:x4experiencebottle"
+			id: "326CD8117C39A83E"
+			rewards: [{
+				id: "031805A00A7C2F1E"
+				item: "compactxpbottles:x4experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "6FFD1184F9435822"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "경험치 병"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "compactxpbottles:x16experiencebottle"
+			id: "72BE2452BD0715C2"
+			rewards: [{
+				id: "67FFC0F7C406063E"
+				item: "compactxpbottles:x16experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "59D1A8D5CC4B127E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "경험치 병"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "compactxpbottles:x64experiencebottle"
+			id: "5277156E874B1653"
+			rewards: [{
+				id: "27B45F2D4342DBAB"
+				item: "compactxpbottles:x64experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "5EF841F42840D9CD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "경험치 병"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "compactxpbottles:x256experiencebottle"
+			id: "2E3645091A1E921F"
+			rewards: [{
+				id: "3F31B0D8714ACF1A"
+				item: "compactxpbottles:x256experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "5850D9E457A9BA14"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "경험치 병"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "skilltree:amnesia_scroll"
+			id: "03ED494B84C6AB02"
+			rewards: [{
+				id: "6A8DE2412D581610"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "70CF626C40D73EEF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "패시브 스킬 트리 초기화"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: 1
+			description: ["• &6던전&r 상자에서 획득하거나 &c스포너&r를 부수어 획득합니다."]
+			disable_toast: 1
+			id: "78F9882C7D8B91FF"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "5AE738EE58CC3487"
+				table_id: 205688915300873583L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "&2&o무작위 보너스가 있는 무작위 반복 보상&r&r"
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "7E70861257FB7C9C"
+				item: "kubejs:monster_coin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			description: [
+				"다음과 같이 획득할 수 있습니다:"
+				""
+				"• &6Minecolonies 관련&r 퀘스트의 &a일회성&r 퀘스트 보상."
+				""
+				"• 일부 &6Minecolonies 직업군&r (체질사, 네더 광부, 광부)으로부터 &9반복 가능한&r 무작위 보상"
+			]
+			disable_toast: 1
+			id: "1664AD644753F84D"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "4CA0FE94061714E2"
+					table_id: 7385202459114283126L
+					type: "random"
+				}
+				{
+					id: "4CA19C74BB6E2419"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare_important"
+			size: 2.0d
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "7E3332F5C3E934C7"
+				item: "kubejs:proofofwork"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			icon: "kubejs:help"
+			id: "6C65EB6265E1FCDE"
+			size: 0.75d
+			subtitle: "&2보상&r은 시간이 지남에 따라 추가됩니다."
+			tasks: [{
+				id: "08628E11882A2F01"
+				type: "checkmark"
+			}]
+			title: "보상"
+			x: 9.75d
+			y: -3.0d
+		}
+		{
+			can_repeat: 1
+			icon: "villagertools:lure"
+			id: "1E4CC8F4EA79B266"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "4305EF376DE293B0"
+				table_id: 6132724653995829032L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "0960B6C0C6253F4D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "주민 유물"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: {
+				Count: 1
+				id: "usefulhats:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71EA12A41E61A46D"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "0B3B8300ABBDB887"
+				table_id: 7640912027527049428L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: 1
+				disable_toast: 1
+				id: "1B4DFDEF12C77AEA"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "유용한 모자"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: 1
+			disable_toast: 1
+			icon: "artifacts:superstitious_hat"
+			id: "0C3C6D1E6E64718F"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "5CF0095A57230DDB"
+				table_id: 2277233259521892613L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					consume_items: 1
+					disable_toast: 1
+					id: "720DDEA81EF0F2F9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "09730FE0C194A13D"
+					points: 0
+					type: "xp"
+					value: 10
+				}
+			]
+			title: "유물 전리품 상자"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: 1
+			description: [""]
+			id: "52006CC781FD0A87"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "4D20F2202EA8739A"
+				table_id: 3850451068388725304L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "Bumblezone 차원에서 찾을 수 있습니다."
+			tasks: [{
+				consume_items: 1
+				id: "771D0163FC433626"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			title: "&6Bumblezone 코인&r"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			description: [""]
+			id: "62FB77578695FFA8"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "6320FF3C55AB426D"
+				table_id: 493550106172164909L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "네더 차원에서 찾을 수 있습니다."
+			tasks: [{
+				consume_items: 1
+				id: "0DDE510F90142B66"
+				item: "kubejs:coin_nether"
+				type: "item"
+			}]
+			title: "&4네더 코인&r"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: 1
+			icon: "waystones:warp_plate"
+			id: "71EE587C589DE2B0"
+			rewards: [{
+				count: 2
+				id: "4AA4FE5CACB490B7"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: 1
+				id: "529912E5615EDA84"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "워프 플레이트"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "&l&f⭐ 마켓 &r&r"
+}
