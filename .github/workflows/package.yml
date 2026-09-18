@@ -1,0 +1,19 @@
+name: Package LITV4 quests
+on:
+  push:
+    branches: [ main ]
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package SNBT files
+        run: |
+          mkdir -p LITV4-quests/config/ftbquests/quests
+          cp *.snbt LITV4-quests/config/ftbquests/quests/
+          cd LITV4-quests
+          zip -r ../LITV4-0.6-Korean-quests.zip config
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LITV4-0.6-Korean-quests
+          path: LITV4-0.6-Korean-quests.zip
