@@ -2875,7 +2875,7 @@
 			description: [
 				"&6휴대용 저장소 인터페이스&r는 아이템 수송 장치가 직접 상호 작용할 수 있도록 하는 블록입니다."
 				""
-				"{ \"text\": \"> Contraption (click me) <\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEB228D1B691E4E\" } }"
+				"{ \"text\": \"> 기계장치 (여기를 클릭) <\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEB228D1B691E4E\" } }"
 				""
 				"인벤토리와요."
 				""
