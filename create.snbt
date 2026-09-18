@@ -1994,13 +1994,13 @@
 				item: "kubejs:iron_coin"
 				type: "item"
 			}]
-			subtitle: "Create Enchantment Industry 애드온 생성"
+			subtitle: "Create 인챈트 산업 애드온 생성"
 			tasks: [{
 				id: "13B055A9F0E99602"
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			title: "Create Enchantment Industry"
+			title: "Create 인챈트 산업"
 			x: 13.0d
 			y: 4.0d
 		}
