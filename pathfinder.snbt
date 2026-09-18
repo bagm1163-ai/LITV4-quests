@@ -695,7 +695,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "(Dungeons Enhanced)"
+			subtitle: "(던전 강화)"
 			tasks: [{
 				id: "5878EA1FC4D8F87A"
 				structure: "dungeons_enhanced:pillager_camp"
