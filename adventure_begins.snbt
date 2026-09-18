@@ -1273,7 +1273,7 @@
 			description: [
 				"퀘스트 북을 진행하면서 코인을 얻게 되며, 이 코인은 특정 챕터에서 다양한 귀중한 아이템으로 교환할 수 있습니다."
 				" "
-				"{ \"text\": \"The market\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64AE92F598464E3E\" } }"
+				"{ \"text\": \"시장\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64AE92F598464E3E\" } }"
 			]
 			id: "1132350866F5AC7A"
 			rewards: [{
@@ -2919,7 +2919,7 @@
 			description: [
 				"새롭고 변경된 메커니즘에 대해 알아보려면 &5&n정보&r&r 퀘스트 챕터를 방문하십시오."
 				""
-				"{ \"text\": \"CLICK HERE TO JUMP STRAIGHT TO IT\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0000000000000117\" } }"
+				"{ \"text\": \"여기를 클릭하면 바로 이동합니다\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0000000000000117\" } }"
 			]
 			icon: "kubejs:help"
 			id: "416124D7D0317D58"
